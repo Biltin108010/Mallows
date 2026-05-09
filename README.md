@@ -77,3 +77,9 @@ Suggested columns:
 
 If any URL is missing or a request fails, the app falls back to the local data
 inside `src/data/fallbackContent.js`.
+
+cd "C:\Personal\Fun Projecty"
+
+$env:Path = "$PWD\.tools\node-v24.15.0-win-x64;$env:Path"
+& ".\.tools\node-v24.15.0-win-x64\npm.cmd" install
+& ".\.tools\node-v24.15.0-win-x64\npm.cmd" run dev
